@@ -35,32 +35,7 @@ public class EjercicioDos {
             JOptionPane.showMessageDialog(null,"Solo se deben ingresas letras");
         }
 
-        /*
-         * 
         
-        Scanner in = new Scanner(System.in);
-        
-        System.out.println("Ingrese el usuario: ");
-        String user = in.nextLine();
-
-        System.out.println("Ingrese la contraseña");
-        String pass = in.nextLine();
-
-        if (user.equals("") || pass.equals("")) {
-            System.out.println("Se deben llenar ambos campos");
-            return;
-        }
-        
-        if (user.matches("[A-Za-z]+") && pass.matches("[A-Za-z]+")) {
-            if (pass.equals("admin") && user.equalsIgnoreCase("Vicente")) {
-                System.out.println("Ingreso exitoso");
-            } else {
-                System.out.println("Usuario o contraseña incorrecto");
-            }
-        } else {
-            System.out.println("Solo se deben ingresas letras");
-        }
-         */
  /*
         if(user.equals("") || pass.equals("")){
            System.out.println("Se deben llenar ambos campos");
