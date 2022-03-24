@@ -37,7 +37,7 @@ public class EjercicioDoce {
             }
             
         }
-        
+       
         System.out.println("");
         System.out.println("Vector ordenado creciente:");
         for (int i = 0; i < vector.length; i++) {
