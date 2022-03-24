@@ -27,21 +27,6 @@ public class EjercicioDoce {
             System.out.print("[" + vector[i] + "]");
         }
         
-        // Ordenamiento por insercion usando "for" y "while"    
-        /*
-        for (int i = 0; i < vector.length; i++) {
-            pos = i;
-            aux = vector[i];
-              
-                while (pos > 0 && vector[pos-1] > aux) {                    
-                vector[pos] = vector[pos-1];  
-                pos--;
-                }
-                vector[pos] = aux;
-                
-        }
-        */
-        // Ordenamiento por insercion usando dos "for"
         for (int i = 0; i < vector.length; i++) {
             aux = vector[i];
             for (int j = 1; j < vector.length; j++) {
