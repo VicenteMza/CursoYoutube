@@ -5,22 +5,16 @@
  */
 package cursodejava;
 
-import java.text.ChoiceFormat;
 import java.util.Scanner;
 
 public class EjercicioOcho {
     public static void main(String[] args){
-        double[] numeros = new double[4];
         Scanner in = new Scanner(System.in);
         double prom = 0;
         
         for(int i = 0; i <= 3; i++){
             System.out.println("ingrese un numero: ");
-            numeros[i] = in.nextDouble();
-        }
-        for(int i = 0; i <= 3; i++){
-            
-            prom += numeros[i];
+            prom = prom + in.nextDouble();
         }
         System.out.println("el promedio de los numero ingresados es: " +
                            prom/4);

@@ -1,6 +1,6 @@
 /*
  * Ejercicio 10 - Dos Arreglos.
- * Una escuela tiene un total de 3 aulas con la siguiente capacidad:
+ *    Una escuela tiene un total de 3 aulas con la siguiente capacidad:
  * Sabiendo la cantidad de bancos de cada aula, el usuario deberá ingresar la
  * cantidad de alumnos inscriptos para cursar tercer grado y el sistema deberá
  * determinar qué aula es la indicada para la cantidad ingresada. La escuela ya
@@ -54,7 +54,7 @@ public class EjercicioDiez {
         }
         acumulador++;
         }while(acumulador <= bancos.length);
-        
+       
     }
 
 }

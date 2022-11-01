@@ -10,12 +10,6 @@ public class EjercicioOnce {
     public static void main(String[] args){
         int pilaUno[] = new int[3];
         int i;
-        for (i = 0; i < pilaUno.length; i++) {
-            pilaUno[i] = 0;
-            System.out.println(pilaUno[i]);
-        }
-        
-        System.out.println("");
         
         i = 1;
         do{

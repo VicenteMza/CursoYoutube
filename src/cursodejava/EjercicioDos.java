@@ -52,5 +52,44 @@ public class EjercicioDos {
         }
            System.out.println("Ingreso exitoso");
          */
+ 
+         //Hecho en clase
+         /*
+         public static boolean esValido(String user, String pass) {
+        String nombreUsuarioCorrecto = "gmmaunas";
+        String contraseniaUsuarioCorrecta = "0qwerty1";
+        boolean esCorrecto = false;
+        if ((nombreUsuarioCorrecto.equals(user))
+                && (contraseniaUsuarioCorrecta.equals(pass))) {
+            esCorrecto = true;
+        }
+        return esCorrecto;
+
+    }
+
+    public static void main(String[] args) {
+
+        Scanner leerEntrada = new Scanner(System.in);
+
+        System.out.println("Ingrese el nombre de Usuario");
+
+        String nombreUsuario = leerEntrada.next();
+
+        System.out.println("Ingrese la contraseña de Usuario");
+
+        String contraseniaUsuario = leerEntrada.next();
+
+        if (nombreUsuario.equals("gmmaunas") && contraseniaUsuario.equals("0qwerty1")) {
+
+            System.out.println("nombre y contraseña de Usuario CORRECTAS");
+
+        }
+
+        if (esValido(nombreUsuario, contraseniaUsuario)) {
+            System.out.println("nombre y contraseña de Usuario CORRECTAS");
+        }
+        
+        System.out.println(esValido(nombreUsuario, contraseniaUsuario));
+         */
     }
 }

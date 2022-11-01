@@ -7,10 +7,13 @@
  */
 package cursodejava;
 
+import java.text.DecimalFormat;
 import java.util.Scanner;
+import javax.swing.JOptionPane;
 
 public class EjercicioCuatro {
     public static void main(String[] args){
+        
         Scanner in = new Scanner(System.in);
         System.out.println("Cual es la forma de pago: ");
         System.out.println("1 para pago de contado.");
@@ -30,7 +33,7 @@ public class EjercicioCuatro {
             case 1:
                 System.out.println("Pago de contado, se aplica el descuento del"
                                 + " 10 %");
-                descuento = monto - (monto * 0.1);
+                descuento = monto *0.9;
                 
                 System.out.printf("El pago con descuento para el monto %.2f es"
                         + " %.2f %n: ", monto, descuento);
@@ -43,7 +46,28 @@ public class EjercicioCuatro {
             default:
                 System.out.println("La opcion ingresada es incorrecta");
         }
-      
+        
+        
+        //Hecho en clase
+        /*
+        String montoCompraString = JOptionPane.showInputDialog(null, "Ingrese el "
+                + "monto total de la compra", "Entrada Monto", -1);
+
+        double montoCompraDouble = Double.parseDouble(montoCompraString);
+
+        String formaDePago = JOptionPane.showInputDialog(null, "Ingrese la forma "
+                + "de pago", "Entrada Forma", -1);
+        if (formaDePago.equalsIgnoreCase("contado")) {
+            DecimalFormat decimalFormateado = new DecimalFormat("####.00");
+            double montoConDescuento = montoCompraDouble * 0.9;
+            JOptionPane.showMessageDialog(null, "El monto TOTAL con descuento aplicado"
+                    + " por forma de pago al contado, es de: "
+                    + decimalFormateado.format(montoConDescuento) + " pesos", "Salida", 1);
+        } else {
+            JOptionPane.showMessageDialog(null, "La forma de pago ingresada no tiene "
+                    + "descuento asociado", "Salida", 2);
+        }
+        */
     }
     
 }

@@ -8,29 +8,40 @@ import java.util.Scanner;
 public class CursoDeJava {
 
     public static void main(String[] args) {
-        
-        Scanner in = new Scanner(System.in);
-        int suma = 0;
 
-        System.out.println("Igresa el primer numero: ");
-        int num1 = in.nextInt();
-        System.out.println("Ingresa el segundo numero: ");
-        int num2 = in.nextInt();
-        suma = num1 + num2;
-        
-        System.out.println("la suma es igual a: " + suma);
-        System.out.printf("La suma de %d + %d es igual a %d\n",num1,num2,suma);
-        
-        /*
-        double x = 1.00001;
-        char y = 'A';
-        int z = 13;
-        String s = "Otro String";
+//        Scanner in = new Scanner(System.in);
+//        int suma = 0;
+//
+//        System.out.println("Igresa el primer numero: ");
+//        int num1 = in.nextInt();
+//        System.out.println("Ingresa el segundo numero: ");
+//        int num2 = in.nextInt();
+//        suma = num1 + num2;
+//
+//        System.out.println("la suma es igual a: " + suma);
+//        System.out.printf("La suma de %d + %d es igual a %d\n", num1, num2, suma);
+//
+//        /*
+//        double x = 1.00001;
+//        char y = 'A';
+//        int z = 13;
+//        String s = "Otro String";
+//
+//        System.out.printf("Esta es una salida con printf donde x: %.3f %n y = "
+//                + "       %c%n y z = %d",x,y,z);
+//        System.out.printf("Este es otro String s: %s",s);
+//         */
+//        String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+//        for (String i : cars) {
+//            System.out.println(i);
+//        }
+        for (int i = 1; i <= 10; i++) {
+            if (i % 2 != 0) {
+                continue; //el número es impar, se interrumpe la iteración
+            }
+            System.out.println("Números pares: " + i);
+        }
 
-        System.out.printf("Esta es una salida con printf donde x: %.3f %n y = "
-                + "       %c%n y z = %d",x,y,z);
-        System.out.printf("Este es otro String s: %s",s);
-        */
     }
 
 }
